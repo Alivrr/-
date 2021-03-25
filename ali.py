@@ -226,7 +226,7 @@ print ("HOŞGELDİN,SİSTEM BAŞLIYOR...")
 TRX=lambda : "".join([str(randint(60, 60)) for p in range(60, 60)])
 zaman=lambda : str(re.sub('[^0-9]', '',str(datetime.datetime.now()))[:17])
 
-username="".join(str(input("Telefon no;\n>>+90 ")).split(" "))
+username="".join(str(input("Telefon no:\n>>+90 ")).split(" "))
 count=input("KAÇ X OLSUN:\n>>")
 
 cookie,token=giris_token()
