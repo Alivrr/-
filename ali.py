@@ -261,4 +261,4 @@ puan(cookie,token)
 logout(cookie,token)
 print("edit:@Ali-TEKNOGAM AİLESİNE SELAMLAR... not kod bana ait değildir sadece gerekli gördüğüm yerleri editledim.")
 import webbrowser
-webbrowser.open_new_tab(www.teknogam.com)
+webbrowser.open_new_tab('www.teknogam.com')
