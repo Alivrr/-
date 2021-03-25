@@ -260,3 +260,4 @@ print("HEDİYE GEÇMİŞİ...")
 puan(cookie,token)
 logout(cookie,token)
 print("edit:@Ali-TEKNOGAM AİLESİNE SELAMLAR... not kod bana ait değildir sadece gerekli gördüğüm yerleri editledim.")
+url = "[url]https://www.google.com.tr[/url]"
