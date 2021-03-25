@@ -223,7 +223,7 @@ def basla(sira):
 
 
 print ("HOŞGELDİN,SİSTEM BAŞLIYOR...")
-TRX=lambda : "".join([str(randint(60, 60)) for p in range(60, 60)])
+TRX=lambda : "".join([str(randint(0, 59)) for p in range(0, 69)])
 zaman=lambda : str(re.sub('[^0-9]', '',str(datetime.datetime.now()))[:17])
 
 username="".join(str(input("Telefon no:\n>>+90 ")).split(" "))
@@ -253,7 +253,7 @@ for i in range(int(count)):
     p.start()
     sira.put([cookie,token,zam,trans])
     #print (i," Sallandi")
-print("BAK BAKALIM KAÇ PUANIN OLMUŞ :D:")
+print("BAK BAKALIM KAÇ PUANIN OLMUŞ :D")
 print(dict((x,Hediyeler.count(x)) for x in set(Hediyeler)))    
 time.sleep(5)
 print("HEDİYE GEÇMİŞİ...")
