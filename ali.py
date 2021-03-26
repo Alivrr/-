@@ -260,8 +260,4 @@ print("HEDİYE GEÇMİŞİ...")
 puan(cookie,token)
 logout(cookie,token)
 print("edit:@Ali-TEKNOGAM AİLESİNE SELAMLAR... not kod bana ait değildir sadece gerekli gördüğüm yerleri editledim.")
-import webbrowser
-webbrowser.open_new_tab('www.teknogam.com')
-import os
-def OpenLink(link):
-    os.system("termux-open-url \""www.teknogam.com"\"")
+
